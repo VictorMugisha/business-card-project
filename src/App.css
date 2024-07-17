@@ -99,7 +99,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 5px;
 }
 
 .about h1 {
@@ -108,6 +108,7 @@ body {
 
 .about p {
   font-size: 13px;
+  color: rgba(255, 255, 255, 0.54);
 }
 
 .interests {
@@ -116,7 +117,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 5px;
   margin-top: 20px;
 }
 
@@ -126,4 +127,32 @@ body {
 
 .interests p {
   font-size: 13px;
+  color: rgba(255, 255, 255, 0.54);
+}
+
+
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+  background: rgba(255, 255, 255, 0.242);
+  padding: 4px 0;
+}
+
+.footer > img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.footer > img.twitter {
+  width: 30px;
+}
+
+.footer > img.facebook {
+  width: 20px;
 }
